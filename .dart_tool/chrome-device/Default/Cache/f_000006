@@ -1,0 +1,412 @@
+define(['dart_sdk', 'packages/flutter/src/widgets/widget_span.dart', 'packages/flutter/src/material/icon_button.dart', 'packages/sellar_e_commerce/responsive_layout.dart', 'packages/sellar_e_commerce/eCommerce/e_com_items.dart', 'packages/sellar_e_commerce/eCommerce/e_com_item_description.dart', 'packages/sellar_e_commerce/eCommerce/e_com_drawer.dart'], (function load__packages__sellar_e_commerce__widget_tree_dart(dart_sdk, packages__flutter__src__widgets__widget_span$46dart, packages__flutter__src__material__icon_button$46dart, packages__sellar_e_commerce__responsive_layout$46dart, packages__sellar_e_commerce__eCommerce__e_com_items$46dart, packages__sellar_e_commerce__eCommerce__e_com_item_description$46dart, packages__sellar_e_commerce__eCommerce__e_com_drawer$46dart) {
+  'use strict';
+  const core = dart_sdk.core;
+  const _interceptors = dart_sdk._interceptors;
+  const dart = dart_sdk.dart;
+  const dartx = dart_sdk.dartx;
+  const media_query = packages__flutter__src__widgets__widget_span$46dart.src__widgets__media_query;
+  const widget_inspector = packages__flutter__src__widgets__widget_span$46dart.src__widgets__widget_inspector;
+  const basic = packages__flutter__src__widgets__widget_span$46dart.src__widgets__basic;
+  const framework = packages__flutter__src__widgets__widget_span$46dart.src__widgets__framework;
+  const scaffold = packages__flutter__src__material__icon_button$46dart.src__material__scaffold;
+  const responsive_layout = packages__sellar_e_commerce__responsive_layout$46dart.responsive_layout;
+  const e_com_items = packages__sellar_e_commerce__eCommerce__e_com_items$46dart.eCommerce__e_com_items;
+  const e_com_item_description = packages__sellar_e_commerce__eCommerce__e_com_item_description$46dart.eCommerce__e_com_item_description;
+  const e_com_drawer = packages__sellar_e_commerce__eCommerce__e_com_drawer$46dart.eCommerce__e_com_drawer;
+  var widget_tree = Object.create(dart.library);
+  dart._checkModuleNullSafetyMode(false);
+  var T = {
+    _LocationL: () => (T._LocationL = dart.constFn(dart.legacy(widget_inspector._Location)))(),
+    WidgetL: () => (T.WidgetL = dart.constFn(dart.legacy(framework.Widget)))(),
+    JSArrayOfWidgetL: () => (T.JSArrayOfWidgetL = dart.constFn(_interceptors.JSArray$(T.WidgetL())))()
+  };
+  var T$Eval = Object.assign({
+    _: () => T$Eval
+  }, T);
+  var S = {
+    _: () => S
+  };
+  var S$Eval = Object.assign({
+    _: () => S$Eval
+  }, S);
+  const CT = Object.create({
+    _: () => (C, CT)
+  });
+  dart.defineLazy(CT, {
+    get C1() {
+      return C[1] = dart.constList([], T._LocationL());
+    },
+    get C0() {
+      return C[0] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[1] || CT.C1,
+        [_Location_name]: null,
+        [_Location_column]: 16,
+        [_Location_line]: 14,
+        [_Location_file]: "file:///C:/Users/msi/Downloads/Flutter/Sellar_eCommerce/lib/widget_tree.dart"
+      });
+    },
+    get C2() {
+      return C[2] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[1] || CT.C1,
+        [_Location_name]: null,
+        [_Location_column]: 21,
+        [_Location_line]: 19,
+        [_Location_file]: "file:///C:/Users/msi/Downloads/Flutter/Sellar_eCommerce/lib/widget_tree.dart"
+      });
+    },
+    get C5() {
+      return C[5] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "flex",
+        [_Location_column]: 15,
+        [_Location_line]: 18,
+        [_Location_file]: null
+      });
+    },
+    get C6() {
+      return C[6] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 15,
+        [_Location_line]: 19,
+        [_Location_file]: null
+      });
+    },
+    get C4() {
+      return C[4] = dart.constList([C[5] || CT.C5, C[6] || CT.C6], T._LocationL());
+    },
+    get C3() {
+      return C[3] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[4] || CT.C4,
+        [_Location_name]: null,
+        [_Location_column]: 13,
+        [_Location_line]: 17,
+        [_Location_file]: "file:///C:/Users/msi/Downloads/Flutter/Sellar_eCommerce/lib/widget_tree.dart"
+      });
+    },
+    get C7() {
+      return C[7] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[1] || CT.C1,
+        [_Location_name]: null,
+        [_Location_column]: 22,
+        [_Location_line]: 23,
+        [_Location_file]: "file:///C:/Users/msi/Downloads/Flutter/Sellar_eCommerce/lib/widget_tree.dart"
+      });
+    },
+    get C10() {
+      return C[10] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "flex",
+        [_Location_column]: 15,
+        [_Location_line]: 22,
+        [_Location_file]: null
+      });
+    },
+    get C11() {
+      return C[11] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 15,
+        [_Location_line]: 23,
+        [_Location_file]: null
+      });
+    },
+    get C9() {
+      return C[9] = dart.constList([C[10] || CT.C10, C[11] || CT.C11], T._LocationL());
+    },
+    get C8() {
+      return C[8] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[9] || CT.C9,
+        [_Location_name]: null,
+        [_Location_column]: 13,
+        [_Location_line]: 21,
+        [_Location_file]: "file:///C:/Users/msi/Downloads/Flutter/Sellar_eCommerce/lib/widget_tree.dart"
+      });
+    },
+    get C14() {
+      return C[14] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "children",
+        [_Location_column]: 11,
+        [_Location_line]: 16,
+        [_Location_file]: null
+      });
+    },
+    get C13() {
+      return C[13] = dart.constList([C[14] || CT.C14], T._LocationL());
+    },
+    get C12() {
+      return C[12] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[13] || CT.C13,
+        [_Location_name]: null,
+        [_Location_column]: 15,
+        [_Location_line]: 15,
+        [_Location_file]: "file:///C:/Users/msi/Downloads/Flutter/Sellar_eCommerce/lib/widget_tree.dart"
+      });
+    },
+    get C15() {
+      return C[15] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[1] || CT.C1,
+        [_Location_name]: null,
+        [_Location_column]: 21,
+        [_Location_line]: 31,
+        [_Location_file]: "file:///C:/Users/msi/Downloads/Flutter/Sellar_eCommerce/lib/widget_tree.dart"
+      });
+    },
+    get C18() {
+      return C[18] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "flex",
+        [_Location_column]: 15,
+        [_Location_line]: 30,
+        [_Location_file]: null
+      });
+    },
+    get C19() {
+      return C[19] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 15,
+        [_Location_line]: 31,
+        [_Location_file]: null
+      });
+    },
+    get C17() {
+      return C[17] = dart.constList([C[18] || CT.C18, C[19] || CT.C19], T._LocationL());
+    },
+    get C16() {
+      return C[16] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[17] || CT.C17,
+        [_Location_name]: null,
+        [_Location_column]: 13,
+        [_Location_line]: 29,
+        [_Location_file]: "file:///C:/Users/msi/Downloads/Flutter/Sellar_eCommerce/lib/widget_tree.dart"
+      });
+    },
+    get C20() {
+      return C[20] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[1] || CT.C1,
+        [_Location_name]: null,
+        [_Location_column]: 22,
+        [_Location_line]: 35,
+        [_Location_file]: "file:///C:/Users/msi/Downloads/Flutter/Sellar_eCommerce/lib/widget_tree.dart"
+      });
+    },
+    get C23() {
+      return C[23] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "flex",
+        [_Location_column]: 15,
+        [_Location_line]: 34,
+        [_Location_file]: null
+      });
+    },
+    get C24() {
+      return C[24] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 15,
+        [_Location_line]: 35,
+        [_Location_file]: null
+      });
+    },
+    get C22() {
+      return C[22] = dart.constList([C[23] || CT.C23, C[24] || CT.C24], T._LocationL());
+    },
+    get C21() {
+      return C[21] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[22] || CT.C22,
+        [_Location_name]: null,
+        [_Location_column]: 13,
+        [_Location_line]: 33,
+        [_Location_file]: "file:///C:/Users/msi/Downloads/Flutter/Sellar_eCommerce/lib/widget_tree.dart"
+      });
+    },
+    get C25() {
+      return C[25] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[1] || CT.C1,
+        [_Location_name]: null,
+        [_Location_column]: 22,
+        [_Location_line]: 38,
+        [_Location_file]: "file:///C:/Users/msi/Downloads/Flutter/Sellar_eCommerce/lib/widget_tree.dart"
+      });
+    },
+    get C28() {
+      return C[28] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "flex",
+        [_Location_column]: 15,
+        [_Location_line]: 37,
+        [_Location_file]: null
+      });
+    },
+    get C29() {
+      return C[29] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 15,
+        [_Location_line]: 38,
+        [_Location_file]: null
+      });
+    },
+    get C27() {
+      return C[27] = dart.constList([C[28] || CT.C28, C[29] || CT.C29], T._LocationL());
+    },
+    get C26() {
+      return C[26] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[27] || CT.C27,
+        [_Location_name]: null,
+        [_Location_column]: 15,
+        [_Location_line]: 36,
+        [_Location_file]: "file:///C:/Users/msi/Downloads/Flutter/Sellar_eCommerce/lib/widget_tree.dart"
+      });
+    },
+    get C32() {
+      return C[32] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "children",
+        [_Location_column]: 11,
+        [_Location_line]: 28,
+        [_Location_file]: null
+      });
+    },
+    get C31() {
+      return C[31] = dart.constList([C[32] || CT.C32], T._LocationL());
+    },
+    get C30() {
+      return C[30] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[31] || CT.C31,
+        [_Location_name]: null,
+        [_Location_column]: 18,
+        [_Location_line]: 27,
+        [_Location_file]: "file:///C:/Users/msi/Downloads/Flutter/Sellar_eCommerce/lib/widget_tree.dart"
+      });
+    },
+    get C35() {
+      return C[35] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "iphone",
+        [_Location_column]: 9,
+        [_Location_line]: 14,
+        [_Location_file]: null
+      });
+    },
+    get C36() {
+      return C[36] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "ipad",
+        [_Location_column]: 9,
+        [_Location_line]: 15,
+        [_Location_file]: null
+      });
+    },
+    get C37() {
+      return C[37] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "macbook",
+        [_Location_column]: 9,
+        [_Location_line]: 27,
+        [_Location_file]: null
+      });
+    },
+    get C34() {
+      return C[34] = dart.constList([C[35] || CT.C35, C[36] || CT.C36, C[37] || CT.C37], T._LocationL());
+    },
+    get C33() {
+      return C[33] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[34] || CT.C34,
+        [_Location_name]: null,
+        [_Location_column]: 13,
+        [_Location_line]: 13,
+        [_Location_file]: "file:///C:/Users/msi/Downloads/Flutter/Sellar_eCommerce/lib/widget_tree.dart"
+      });
+    },
+    get C40() {
+      return C[40] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "body",
+        [_Location_column]: 7,
+        [_Location_line]: 13,
+        [_Location_file]: null
+      });
+    },
+    get C39() {
+      return C[39] = dart.constList([C[40] || CT.C40], T._LocationL());
+    },
+    get C38() {
+      return C[38] = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C[39] || CT.C39,
+        [_Location_name]: null,
+        [_Location_column]: 12,
+        [_Location_line]: 12,
+        [_Location_file]: "file:///C:/Users/msi/Downloads/Flutter/Sellar_eCommerce/lib/widget_tree.dart"
+      });
+    }
+  }, false);
+  var C = Array(41).fill(void 0);
+  var I = ["package:sellar_e_commerce/widget_tree.dart"];
+  var _Location_parameterLocations = dart.privateName(widget_inspector, "_Location.parameterLocations");
+  var _Location_name = dart.privateName(widget_inspector, "_Location.name");
+  var _Location_column = dart.privateName(widget_inspector, "_Location.column");
+  var _Location_line = dart.privateName(widget_inspector, "_Location.line");
+  var _Location_file = dart.privateName(widget_inspector, "_Location.file");
+  widget_tree.WidgetTree = class WidgetTree extends framework.StatelessWidget {
+    build(context) {
+      let _size = media_query.MediaQuery.of(context).size;
+      return new scaffold.Scaffold.new({body: new responsive_layout.ResponsiveLayout.new({iphone: new e_com_items.ECommerceItems.new({$creationLocationd_0dea112b090073317d4: C[0] || CT.C0}), ipad: new basic.Row.new({children: T.JSArrayOfWidgetL().of([new basic.Expanded.new({flex: 9, child: new e_com_items.ECommerceItems.new({$creationLocationd_0dea112b090073317d4: C[2] || CT.C2}), $creationLocationd_0dea112b090073317d4: C[3] || CT.C3}), new basic.Expanded.new({flex: 9, child: new e_com_item_description.ECommerceItemDescription.new({$creationLocationd_0dea112b090073317d4: C[7] || CT.C7}), $creationLocationd_0dea112b090073317d4: C[8] || CT.C8})]), $creationLocationd_0dea112b090073317d4: C[12] || CT.C12}), macbook: new basic.Row.new({children: T.JSArrayOfWidgetL().of([new basic.Expanded.new({flex: dart.notNull(_size.width) > 1340 ? 3 : 5, child: new e_com_items.ECommerceItems.new({$creationLocationd_0dea112b090073317d4: C[15] || CT.C15}), $creationLocationd_0dea112b090073317d4: C[16] || CT.C16}), new basic.Expanded.new({flex: dart.notNull(_size.width) > 1340 ? 8 : 10, child: new e_com_item_description.ECommerceItemDescription.new({$creationLocationd_0dea112b090073317d4: C[20] || CT.C20}), $creationLocationd_0dea112b090073317d4: C[21] || CT.C21}), new basic.Expanded.new({flex: dart.notNull(_size.width) > 1340 ? 2 : 4, child: new e_com_drawer.ECommerceDrawer.new({$creationLocationd_0dea112b090073317d4: C[25] || CT.C25}), $creationLocationd_0dea112b090073317d4: C[26] || CT.C26})]), $creationLocationd_0dea112b090073317d4: C[30] || CT.C30}), $creationLocationd_0dea112b090073317d4: C[33] || CT.C33}), $creationLocationd_0dea112b090073317d4: C[38] || CT.C38});
+    }
+  };
+  (widget_tree.WidgetTree.new = function(opts) {
+    let $36creationLocationd_0dea112b090073317d4 = opts && '$creationLocationd_0dea112b090073317d4' in opts ? opts.$creationLocationd_0dea112b090073317d4 : null;
+    widget_tree.WidgetTree.__proto__.new.call(this, {$creationLocationd_0dea112b090073317d4: $36creationLocationd_0dea112b090073317d4});
+    ;
+  }).prototype = widget_tree.WidgetTree.prototype;
+  dart.addTypeTests(widget_tree.WidgetTree);
+  dart.addTypeCaches(widget_tree.WidgetTree);
+  dart.setMethodSignature(widget_tree.WidgetTree, () => ({
+    __proto__: dart.getMethods(widget_tree.WidgetTree.__proto__),
+    build: dart.fnType(dart.legacy(framework.Widget), [dart.legacy(framework.BuildContext)])
+  }));
+  dart.setLibraryUri(widget_tree.WidgetTree, I[0]);
+  dart.trackLibraries("packages/sellar_e_commerce/widget_tree.dart", {
+    "package:sellar_e_commerce/widget_tree.dart": widget_tree
+  }, {
+  }, '{"version":3,"sourceRoot":"","sources":["widget_tree.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;UAS4B;AACnB,kBAAmB,AAAY,0BAAT,OAAO;AAClC,YAAO,kCACC,oDACG,mGACD,6BACM,yBACR,8BACQ,UACA,sJAER,8BACQ,UACC,iPAIJ,6BACG,yBACR,8BACoB,aAAZ,AAAM,KAAD,UAAS,OAAO,IAAI,UACzB,0JAER,8BACoB,aAAZ,AAAM,KAAD,UAAS,OAAO,IAAI,WACxB,+KACP,8BACkB,aAAZ,AAAM,KAAD,UAAS,OAAO,IAAI,UACxB;IAMnB;;;;;;EACF","file":"../../../../../../packages/sellar_e_commerce/widget_tree.dart.lib.js"}');
+  // Exports:
+  return {
+    widget_tree: widget_tree
+  };
+}));
+
+//# sourceMappingURL=widget_tree.dart.lib.js.map
